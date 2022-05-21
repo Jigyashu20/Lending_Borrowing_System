@@ -1,21 +1,19 @@
 #include<iostream>
+#include<stdio.h>
+#include<cstdio>
 #include<string>
 #include<vector>
 #include<fstream>
-
-
 #include<sstream>
-
-#include<cstdio>
 #include<filesystem>
 
-#include<stdio.h>
+
 
 using namespace std;
 
 class Bank{
     public:
-        int Balance  =10000;
+        int Balance  =100000;
         void show_all_lenders(){
                 
             fstream fin; 
